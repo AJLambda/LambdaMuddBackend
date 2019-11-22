@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "@pusher/chatkit-server": "^2.1.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "cross-env": "^6.0.3",
+    "datauri": "^2.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "knex": "^0.20.2",
+    "pg": "^7.14.0",
+    "sqlite3": "^4.1.0"
+  },
+  "name": "lambamuddbackend",
+  "description": "node and express backend ",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {
+    "nodemon": "^2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AJLambda/LambdaMuddBackend.git"
+  },
+  "author": "Austin James",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AJLambda/LambdaMuddBackend/issues"
+  },
+  "homepage": "https://github.com/AJLambda/LambdaMuddBackend#readme"
+}
