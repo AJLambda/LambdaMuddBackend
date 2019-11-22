@@ -14,6 +14,9 @@ const chatkit = new Chatkit.default({
   key:
     "260ee3b1-cc03-4ead-9562-fa99d1202b70:0k0FIEHuAlOGEbokc9pHSF6gVhTTiHg0HxJLB33Dh40="
 });
+app.get("/", (req, res) => {
+  res.send("hello world");
+});
 
 app.post("/users", (req, res) => {
   console.log("REQUEST", req.body);
